@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+	    <li><a href="#" onclick="closeWindow()">Close</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section with Carousel -->
+    <section id="home" class="hero-section container">
+        <div class="carousel">
+            <!-- Carousel Items -->
+            <div class="carousel-item active" data-bg="https://scontent.fceb1-4.fna.fbcdn.net/v/t1.15752-9/487066543_1357907551994702_7122464209812983759_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGVZaJXmrDGjgQNxWHHg70LFYWSxl9okCkVhZLGX2iQKaqfWhvPM7FQO5D_dtqSGMx0lwv92riUHPA9Jrxa7J0Q&_nc_ohc=Lram-Ot2yowQ7kNvgHjun3K&_nc_oc=Adn9hKKmlpLX2TrcfgcgDSs3KRubbgq1TI14zThwnZ8NaX4DZOV3C3o-CsVwLvtYvAM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&oh=03_Q7cD1wE6nq1eYI3aOArGAOuskDZUcXXE6rJ0j6lKknWVqVr3Nw&oe=6812F238">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                    <button class="discover-btn" data-target="favorites">Discover</button>
+			
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/486023911_1360090721996752_4690815776714986879_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHU4TBTCZvOhfw7ak8pluhSruoMcn5J8zyu6gxyfknzPOEMu57EPdKNPUSFX8aQRiqv23VDjhevWpS1oZ9qLxfD&_nc_ohc=Lhe_z-bc8GUQ7kNvgGMbD-Z&_nc_oc=AdkqFgkT7Mvn0YS3TwHo_CpwouugARyIQ99oHAu-VQ3U6j49sJdE3Lrn7ILdwTlx120&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wFsdVdx0Gr0sFDw9wQRZxGUqRbtAIrx51l3HGDZC_TVqw&oe=6812FD2E">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                    <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-4.fna.fbcdn.net/v/t1.15752-9/486485711_3480281195440568_781542606574074396_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE5_BjPV6h2-vQd8DivVm8euEXnmhNEZS24ReeaE0RlLV-Q35MyJ01_GXhqV10uU4oQzZFhRHuOvsUPcsct2yrl&_nc_ohc=9-7B0h0pBwcQ7kNvgEAw0zs&_nc_oc=AdmOmqxtPCUkb7b0BLOh5Xbjxw5ZkEZvoih23-WvPDawLY7vTz2yWa9SbDzeibqbUlM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&oh=03_Q7cD1wEEVOBDgZpvG9XbojAB6s69ymRX_icf5k4C0JyORTI16w&oe=6812D3BC">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                    <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/487758241_1330281478271608_2927965094262069543_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHtWTQJ6n3lJGx-E3QcUEV8aEY8JfDFWDJoRjwl8MVYMjAmwsE0soBby2urcnPi2vwQfmFwg1QzQ5No04-7Vz9I&_nc_ohc=JC5OoNmBtQ4Q7kNvgHso8pD&_nc_oc=Adlvw8Pt5pguNUPgBKxankHklR9hMpX2iz8KOTFL2Tr9ysmoeX5uLsP_QdOtgmZjVx4&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wExwkF4Cuyr5RtNtgfKSghkXlyEbKzf94a4dcNQJidjmA&oe=6813238B">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                   <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-4.fna.fbcdn.net/v/t1.15752-9/486164768_633917572814211_4588001992042840935_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGZrzu-dS6EDagkzDujUElCLZu4xPUeNo0tm7jE9R42jdGAKPUpeqeKXtWL6JkcSXi94VPMB_k-UWtFeE4tXGel&_nc_ohc=Lms-Sku8IVwQ7kNvgFKlY4t&_nc_oc=AdmG-no_0PYJ-NwVgeaf0sqpGsTxyUYPRBEE0SmER8czsIgiE1wUwLZx7jUBK_aCiPU&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&oh=03_Q7cD1wFWhbwP8Thii4LDh_J6BXV_6d4aWRbtjNvOZ0G4YOFUdg&oe=68132154">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                   <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/487021173_673863545055554_2076894859628059150_n.png?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeECukEQ4hCmntGpe0nKKcms8saeb07dEbnyxp5vTt0RuQblJR41-KxF7uxHymDg80Rdl52yh9AF7gJzrKSaR7Cq&_nc_ohc=XUM5-GqJVEkQ7kNvgFwKVQK&_nc_oc=Adklr77FC0OWK7kA8bhyx-UsqwTl7ppPWVmM4bfWyk9Itb_t6raEaTPx2l_ivGJnLDM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-1.fna&oh=03_Q7cD1wEhD_owR7fY2jGu_lMHUy8lb4zGifuhv0csA9lMqemRiQ&oe=6812F228">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                  <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bg="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/486085782_648956014546552_2790471622380594549_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHzmvEN9SXdINbAID8CA4le2k24jYk1P8XaTbiNiTU_xTN7XQJX3TaUZpWGNuhZnzfcarg_kVyIQoULFOgXDc37&_nc_ohc=sI2X0vfQU98Q7kNvgE5VGfG&_nc_oc=Adkxgs-gn4-V_nl0HmnUx9hsprGkmHOD4vHoyE9ghnNjHbihOZNSnUmETdsSXGLY5pM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wFWePjirap6YIj3PJtbzvpHpQYwTB3Bcc5fnBHpMyZ0ew&oe=6812F06A">
+                <div class="hero-content">
+                    <h1>Hello, I'm<br>Vilia Crestene</h1>
+                    <p>Welcome to my personal website! I’m passionate about technology, art, and problem-solving through creativity and innovation. Explore my journey, projects, and favorite moments in IT and art. From coding solutions to artistic expressions, I love bringing ideas to life. Let’s connect and create something amazing!</p>
+                    <button class="discover-btn" data-target="favorites">Discover</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Navigation -->
+        <div class="carousel-nav">
+            <button class="prev-btn">←</button>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-btn">→</button>
+            <span class="slide-counter">01</span>
+        </div>
+
+        <!-- Destination Cards -->
+        <div class="destination-cards">
+            <div class="cards-container">
+                <div class="card active" data-index="0">
+                    <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/486575328_876677104550330_5728169823407408679_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEFQ1tOV1KWpnYHGfRaPO_mcmuIszMX9nhya4izMxf2eOr03FbxcU2PxWGg4bM1D4DtNcOwVEDn3Rh2Ia40VEF_&_nc_ohc=10mifg6bgKgQ7kNvgEkKWpy&_nc_oc=Adl8Zc2mzIRcGg9XZFRkQTIDSfzcGzRKpuHEQd4xu9JjUquq3FA0-SKJUcJhaxJ4P-M&_nc_ad=z-m&_nc_cid=0&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-2.fna&oh=03_Q7cD1wHL5DmB80ToEna5am8rCkimuKBLBxXBAzJZU9Y63DoOaQ&oe=6812D2BC" alt="0">
+                </div>
+                <div class="card" data-index="1">
+                    <img src="https://scontent.fceb1-5.fna.fbcdn.net/v/t1.15752-9/486507066_1028621552491672_2008029111561814355_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFZKBX-RJNRJK502aLowtE2SBQxwg5FybZIFDHCDkXJtlA110IW0EoQWl6LFK9Ah7AKuR69cEiNh2pDxTZuiX4r&_nc_ohc=fA6_sjLtmWwQ7kNvgHe5ruP&_nc_oc=AdnMPpYNKdNLkSlpO0bg-DU5vtJ_zjflD42zFin7QL3AhZ6xiEGpP3fk6arbteosxUc&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-5.fna&oh=03_Q7cD1wH0A0d1ihEiGs1E4_iybS4CJKkhrjCHwgkV0_mS9MAbhw&oe=6812FF3D" alt="1">
+                </div>
+                <div class="card" data-index="2">
+                    <img src="https://scontent.fceb1-4.fna.fbcdn.net/v/t1.15752-9/486485711_3480281195440568_781542606574074396_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE5_BjPV6h2-vQd8DivVm8euEXnmhNEZS24ReeaE0RlLV-Q35MyJ01_GXhqV10uU4oQzZFhRHuOvsUPcsct2yrl&_nc_ohc=9-7B0h0pBwcQ7kNvgEAw0zs&_nc_oc=AdmOmqxtPCUkb7b0BLOh5Xbjxw5ZkEZvoih23-WvPDawLY7vTz2yWa9SbDzeibqbUlM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&oh=03_Q7cD1wEEVOBDgZpvG9XbojAB6s69ymRX_icf5k4C0JyORTI16w&oe=6812D3BC" alt="2">
+                </div>
+                <div class="card" data-index="3">
+                    <img src="https://scontent.fceb1-5.fna.fbcdn.net/v/t1.15752-9/486566785_9746737782043281_9095520221020003286_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGjPy3VyjyTygWNymRA-2-SXABYfkg4MzdcAFh-SDgzNy7dhdPpBddFf3kCPZYlemhgeAF9XeTi4-H73fJg7znr&_nc_ohc=bt9i6O4woskQ7kNvgGdiIBY&_nc_oc=AdnXAxgw5b4-zTc5TSQKvgqhOcbLkD8cJwYvJYtBdCODtZFPpTx9f6xfFNHDsE31vtg&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-5.fna&oh=03_Q7cD1wGMnL_TqH6hbRqY8hirel3kxEwfV4kVoL2sOxDoZ_Yd0Q&oe=68130CAA" alt="3">
+                </div>
+                <div class="card" data-index="4">
+                    <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/485856062_1738848880004621_8365084953331797025_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHpwRJW_EKgCxnDOxg6XIbrqt_B7JCCZjuq38HskIJmO7AczS1KgYmNucj9yRTjoqnE1NgggWnJrFOmn1Md44rc&_nc_ohc=e8GuNH_SGeQQ7kNvgEMp4nZ&_nc_oc=AdntLuamIgb3cCqyVInLuSZnW58u2s5tkvGI5CAGAbi7CoU-lzHnqkpWc5D79zLkMGk&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wFrGG6kGGGqp9AIKgK73J3CENSDLRgFMiFKUGL8syDIbg&oe=68131728" alt="4">
+                </div>
+                <div class="card" data-index="5">
+                    <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/486815644_1871243716947867_6753049404502733497_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEnnVp-6huQ-LIVTYjyv112UcNhillEPVNRw2GKWUQ9U4XLz58VKUaULGF4QTUJgHeYjPbBgzS2k47y7hgGPVix&_nc_ohc=VtEOLWq1OAYQ7kNvgGJW9gl&_nc_oc=Adm6LgaUNKHuB4NHDAxa3pTTWf54BBa8vmsgfwLNoWjyqgRQVdNEmpvpyXu5DD89Eww&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wGsLXAbgnvBqZzBKKN2nKPZ6hO6fdpv1_wPEegS05jJ5g&oe=68130665" alt="5">
+                </div>
+                <div class="card" data-index="6">
+                    <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/486572571_1165162318736337_4456428232267543108_n.png?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG2i-apCBknjeT5qyo9yLbl3CPBvHGSFuPcI8G8cZIW40J17kaz-SGJkiSIolX18yD_LAaDgc0WPtJUOdvRqrHO&_nc_ohc=K6ODfajcGuYQ7kNvgHqlF2F&_nc_oc=AdlTWGfHJG-OeuNgmm3DADqge2U8c4JhM6dRI2YofA2CgzeqhKNi-Ct8tequnP2Olo4&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-1.fna&oh=03_Q7cD1wF5PmfjbzWZPJYLhJHjooXn290wlPHBK0ALaSTxoRg15Q&oe=68130B37" alt="6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="container hidden">
+        <h2>Function Integration</h2>
+        <p class="subheading">Pick your Choice:</p>
+        <div class="challenge-options">
+            <button class="challenge-card card-item" onclick="convertCelsiusToFahrenheit()">
+                <span class="challenge-icon">🌡️</span> 1. Temperature Converter (5 pts)
+            </button>
+            <button class="challenge-card card-item" onclick="compareWords()">
+                <span class="challenge-icon">📝</span> 2. The Longer Word (5 pts)
+            </button>
+            <button class="challenge-card card-item" onclick="showBirthstone()">
+                <span class="challenge-icon">💎</span> 3. Know My Birthstone (7 pts)
+            </button>
+            <button class="challenge-card card-item" onclick="performOperation()">
+                <span class="challenge-icon">🧮</span> 4. Basic Operators (7 pts)
+            </button>
+            <button class="challenge-card card-item" onclick="computeAcceleration()">
+                <span class="challenge-icon">🚀</span> 5. Compute for Acceleration (8 pts)
+            </button>
+        </div>
+    </div>
+
+    <!-- Favorites Section -->
+<div id="favorites" class="container hidden">
+    <h2>My Favorites</h2>
+    <p class="subheading">Explore some of my favorite moments and artworks</p>
+    <div class="gallery">
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/475983413_1683186475628480_5695421602175558622_n.jpg?stp=dst-jpg_p600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeF2n-t2Kkdl8eTLcUVG4_nozYFBbMXfNnrNgUFsxd82ek9G4A36PtDHNwlJOYz2rTRxsYPrFy0vWAHDlNWjgtsb&_nc_ohc=hJofHwv3TWgQ7kNvgFcOZfz&_nc_oc=AdlYW_2N1uS9LeHX-jABZO8eq9Bb-IyVrp3qA5zKV5pSZZG_Oz3Xuf6726bbx4IsXUs&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&_nc_gid=vnBmR1E1OOB7A9yM-Mgfdg&oh=00_AYGgA48PAPAmrOgXnSjMJHcQNuDZzFCdFdtxMdMmwXGwhA&oe=67F1A158" alt="Bumblebee" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Bumblebee</span>
+                    <span class="subtitle">Favorite Artwork</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://instagram.fceb1-3.fna.fbcdn.net/v/t39.30808-6/454196846_18035891909314344_6046757443615676889_n.webp?stp=dst-webp_p640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLmltYWdlX3VybGdlbi4xMDgweDE5MjAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fceb1-3.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2QEWdrVU-UoSMW-SdAcmPx8Toc-RstYO1mIcY7Tln_KmBjeiZjfM00BquY-igvVw-F8&_nc_ohc=yHDhk1bYItIQ7kNvgHSbu9C&_nc_gid=fZLLGf4fM5JmhuMX-utQMA&edm=AGFyKLkAAAAA&ccb=7-5&ig_cache_key=MzQyNzU0MzI4NzQwOTEzODAxNA%3D%3D.3-ccb7-5&oh=00_AYGeZIwcLG2Yxe9AW2d5ygbL4WQJMK1F-0WYPtpDmEh9WQ&oe=67F18687&_nc_sid=5a0a6d" alt="Detailed Painting" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Perellos, Carcar</span>
+                    <span class="subtitle">Detailed Painting</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://cdn.fbsbx.com/v/t59.2708-21/488085112_1384155306090875_6484289303862285747_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=cf94fc&_nc_eui2=AeH45W5Dbyx9WahvV1S3S0ic3Rwt1agB9WPdHC3VqAH1Y_kCV4oLTMQjebnuBvdj2xNfPwwMs-00Zft7mmrKNz5K&_nc_ohc=sIUp7PJEh4IQ7kNvgGOnB8R&_nc_oc=AdlwkT15RFkC_KYrtcZqPp_yOxltWQCR7Ok3nHaUN2Qlr4Lqqe7in9H2NJAeRhsQFCk&_nc_pt=1&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=IgxIvcClRr3_QcqugvhUHg&oh=03_Q7cD1wF-CQdF5IbddsyOzvJ41cnEytEsTglA1FaY9l71HBL33A&oe=67ED95C0" alt="Work in Progress" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Commish</span>
+                    <span class="subtitle">Work in Progress</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://instagram.fceb1-3.fna.fbcdn.net/v/t39.30808-6/459365059_18040261331314344_7643827457839332532_n.webp?stp=dst-webp_p640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLmltYWdlX3VybGdlbi4xMDgweDE5MjAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fceb1-3.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2QEWdrVU-UoSMW-SdAcmPx8Toc-RstYO1mIcY7Tln_KmBjeiZjfM00BquY-igvVw-F8&_nc_ohc=TYLDkZazmyIQ7kNvgE1o07O&_nc_gid=fZLLGf4fM5JmhuMX-utQMA&edm=AGFyKLkAAAAA&ccb=7-5&ig_cache_key=MzQ1NTMyNTYzODI2NzUxNzY5MA%3D%3D.3-ccb7-5&oh=00_AYHdh3Q4c94Z4SVznWZBsFzTgB16MuCKj1DtYSDjovKBWg&oe=67F19F4B&_nc_sid=5a0a6d" alt="Charcoal" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Charcoal Portrait</span>
+                    <span class="subtitle">Random</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-4.fna.fbcdn.net/v/t39.30808-6/480567074_1695923954354732_1023832122139550319_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeE3xzSEnMcKA6GxhOxx765SmO8Qg6DHMZ-Y7xCDoMcxn4bDypCXy11flAfTIWffX1mmdgGttOXsBgEDiAytcgPx&_nc_ohc=1ynSc3o2KEgQ7kNvgGXmniG&_nc_oc=AdlzLwasKV2IUvDNKg8DuYhGaurPuhlscT5ttHTXN_nJbXHerr4fo5t4j52VchVJqGA&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&_nc_gid=EI-QCp82UaOOn5XuZTgoQw&oh=00_AYF4SkPc8qATaJcVauUXMYGW0PTest3mw8m88gap4JIyxA&oe=67F1B734" alt="Random" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Bored</span>
+                    <span class="subtitle">Sketch</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/480461835_1695679954379132_7389635787329215566_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeGiU7XZugpnE3wJU-FiaqxiCMvvlYKdD48Iy--Vgp0Pj-hvPth6piCstpsOt_hb9MBcBe25tm8R9L2Vo_g7rnNW&_nc_ohc=uNk7d9C_QTIQ7kNvgGI_zVZ&_nc_oc=Adl_c5yrAIAYJuoumz8OBdG8_RBvRByU7lLBUWXAJNoRt09s1E8BuGZ29PghCkGFVmA&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-2.fna&_nc_gid=8et5hGVOX0tCPA6Fj_RHrA&oh=00_AYGAnHS70621ifseagO7BlyJNyi3cTfmz-hiHYFXLVAKlQ&oe=67F1AF5E" alt="Katik" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Katik</span>
+                    <span class="subtitle">Sketch</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+        </div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/486150453_667005239137591_1315817832376713492_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGKwQa0Bh6qTEuYUkZClL_QJSFhMBGvnqslIWEwEa-eq6qdnZ95Xpvvk2g45YjIxBEUWedbyy-yMT0zdPn-b9m5&_nc_ohc=KHOnjYQtwZYQ7kNvgGos9LB&_nc_oc=AdlR-YwCEI3PlI8N6CJzUXdDrGVA6jzdqxQBmhgDB88VuunoxeUyY-HWeaZwb3WJdKo&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-2.fna&oh=03_Q7cD1wEcpJZYcPIz35ovwoMjF5035AcJR1e1yIZwEEZsq-H2lA&oe=68133638" alt="My Angel" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Nami</span>
+                    <span class="subtitle">My Angel</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+	</div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/487366524_1090162273135077_6912097188168468007_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGUytpXKfVXwzBgNOKr_S32Dj_KGHfwo6kOP8oYd_CjqUpUvPlIPhFuFdHFqctilnuOyyeVIk-bDgH-Ep7lzmZQ&_nc_ohc=QaeXs-BIQaYQ7kNvgGsClVR&_nc_oc=AdnDeC4rRoVGMDfeYRS3k4eBiM6T90Bv--juLvc2eS4t_GJmrtrIloICjgmC1STDh40&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wGtjVRAMKIhUBbnQCp3BZ5LGoqnpec8WEV4CGndA64QPA&oe=68134C2F" alt="gay" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">The Gaes</span>
+                    <span class="subtitle">Bayot</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+	</div>
+        <div class="favorite-card card-item">
+            <div class="artwork" data-liked="false">
+                <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/486331895_1177989770784667_5300060520620647834_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGXcoHG_mzXELQ665Cx3-MWQ-4jGQtOPfFD7iMZC0498ZUkYhfRo9jhiObTqFMMy8dfnPArgi8ex3BodqOVqlnG&_nc_ohc=WdaRwnJXjlQQ7kNvgGcqClR&_nc_oc=AdkdWYYmGBveeEXXNS_V8c_ulVcSkGQiAKUm0rylIQTBid7qXviTBlnvqTlxmU_Xq9o&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&oh=03_Q7cD1wGqUgXfxH1kTBo4S7IWmRl-D1hM8RGQKdIAczQdUY5oUw&oe=68134B98" alt="Jhergen" class="artwork-image">
+                <div class="artwork-info">
+                    <span class="title">Jhergen</span>
+                    <span class="subtitle">Crazy</span>
+                </div>
+                <button class="like-btn" onclick="toggleLike(this)"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="Like"></button>
+            </div>
+            <div class="comments-section">
+                <div class="comment-input-container">
+                    <input type="text" class="comment-input" placeholder="Add a comment..." maxlength="100">
+                    <button class="post-comment-btn" onclick="addComment(this)">Post</button>
+                </div>
+                <ul class="comments-list" data-comment-count="0"></ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Vilia Crestene Gelaga. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
